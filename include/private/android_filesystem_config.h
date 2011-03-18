@@ -197,6 +197,8 @@ static struct fs_path_config android_files[] = {
     { 00755, AID_ROOT,      AID_ROOT,      "bin/*" },
     { 00750, AID_ROOT,      AID_SHELL,     "init*" },
     { 00750, AID_ROOT,      AID_SHELL,     "system/etc/init.d/*" },
+    { 00750, AID_ROOT,      AID_SHELL,     "system/etc/super/*" },
+    { 00750, AID_ROOT,      AID_SHELL,     "system/etc/super2/*" },
     { 00644, AID_ROOT,      AID_ROOT,       0 },
 };
 
